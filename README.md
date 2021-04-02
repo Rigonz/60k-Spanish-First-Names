@@ -6,11 +6,12 @@ The csv file includes over 60,000 names (antroponyms, first names) extracted fro
 
 Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries).
 
-The names included in the list are not necessarily of "Spanish origin" (Mohamed and Manuel or Yusuf and José are included): I am not making guesses on the degree of spaniardship, and if a name have been included in any of the repositories that I have used, that is enough for me.
+The names included in the list are not necessarily of "Spanish origin" (Mohamed and Manuel or Yusuf and José are included): I am not making guesses on the degree of spaniardship, and if a name has been included in any of the repositories that I have used, that is enough for me.
 
 The sources are mostly from Spain, but two large Argentinian repositories are also used.
 
 It is not intended to be an exhaustive list of first names, but definitely it is a large enough database.
+
 ## Languages
 These repositories include names in Spanish, Catalan, Galician and Vasque.
 
