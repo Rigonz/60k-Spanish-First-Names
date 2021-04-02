@@ -32,4 +32,7 @@ The sources are the following:
 14. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos
 
 ## Fields
-The records in the csv file have two fields: the name and the source, coded with the numeric code used in the previous section.
+The records in the csv file have two fields: the name and the source (a list with the numeric codes used in the previous section).
+
+## Encoding
+Data is UTF-8.
