@@ -18,17 +18,17 @@ These repositories include names in Spanish, Catalan, Galician and Vasque.
 ## Sources
 The sources are the following:
 1.  https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xls
-2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019
+2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019 (Catalan and Spanish names)
 3.  https://www.abc.es/sociedad/abci-nombres-mas-raros-espana-entre-extincion-y-particular-201906191111_noticia.html
-4.  https://ca.wiktionary.org/wiki/Viccionari:Llista_de_noms_propis_en_catal%C3%A0
-5.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml
-6.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml
-7.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm
-8.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm
+4.  https://ca.wiktionary.org/wiki/Viccionari:Llista_de_noms_propis_en_catal%C3%A0 (Catalan names)
+5.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Catalan names)
+6.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Spanish names)
+7.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Catalan names)
+8.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Spanish names)
 9.  https://www.eldiario.es/nidos/nombres_1_2922962.html
 10. https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_femeninos and https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_masculinos
-11. https://gl.wikipedia.org/wiki/Lista_de_nomes_femininos_en_galego and https://gl.wikipedia.org/wiki/Lista_de_nomes_masculinos_en_galego
-12. https://es.wikipedia.org/wiki/Antroponimia_vasca
+11. https://gl.wikipedia.org/wiki/Lista_de_nomes_femininos_en_galego and https://gl.wikipedia.org/wiki/Lista_de_nomes_masculinos_en_galego (Galician names)
+12. https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
 13. http://www.chubut.gov.ar/apps/nombres/
 14. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos
 15. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1
