@@ -19,7 +19,7 @@ These repositories include names in Spanish, Catalan, Galician and Vasque.
 The sources are the following:
 1.  https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xls (Spanish names)
 2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019 (Catalan and Spanish names)
-3.  https://www.abc.es/sociedad/abci-nombres-mas-raros-espana-entre-extincion-y-particular-201906191111_noticia.html
+3.  https://www.abc.es/sociedad/abci-nombres-mas-raros-espana-entre-extincion-y-particular-201906191111_noticia.html (Spanish names)
 4.  https://ca.wiktionary.org/wiki/Viccionari:Llista_de_noms_propis_en_catal%C3%A0 (Catalan names)
 5.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Catalan and Spanish names)
 6.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Catalan and Spanish names)
@@ -27,8 +27,8 @@ The sources are the following:
 8.  https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_femeninos and https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_masculinos (Spanish names)
 9.  https://gl.wikipedia.org/wiki/Lista_de_nomes_femininos_en_galego and https://gl.wikipedia.org/wiki/Lista_de_nomes_masculinos_en_galego (Galician names)
 10. https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
-11. http://www.chubut.gov.ar/apps/nombres/
-12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos
+11. http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
+12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
 
 ## Fields
 The records in the csv file have two fields: the name and the source (a list with the numeric codes used in the previous section).
