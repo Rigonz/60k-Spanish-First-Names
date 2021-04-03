@@ -33,7 +33,7 @@ The core sources are the following:
 14. https://data.world/axtscz/spanish-first-name (Spanish names)
 
 ## Auxiliary Sources
-21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking will be necessary, f.eg. Bacilio, Hortencia, Cilveria, Semeona, or handling variants like:
+21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants will be necessary, f.eg. Bacilio, Hortencia, Cilveria, Semeona, or:
 - Gisel/Ghisel/Gisell/Gisela/Ghisela/Gisele/Giselle/Gisella/Ghisella/Guisela/ 
 - Jisela/Jisella/Jisel/Jisell/Jhisel/Jhiselli/ 
 - Grisel/Grisell/Grisela/Griselda/ 
