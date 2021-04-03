@@ -1,8 +1,8 @@
 # 60k Spanish First Names
-60k Spanish First Names Scraped from 12 Sources
+60k Spanish First Names Scraped from 13 Sources
 
 ## Presentation
-The csv file includes over 60,000 first names (antroponyms) extracted from 12 sources of Spanish first names.
+The csv file includes over 60,000 first names (antroponyms) extracted from 13 sources of Spanish first names.
 
 Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries).
 
@@ -29,6 +29,7 @@ The core sources are the following:
 10. https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
 11. http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
 12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
+13. https://www.buenosaires.gob.ar/areas/registrocivil/nombres/busqueda/imprimir.php?sexo=ambos (Spanish names)
 
 ## Auxiliary Sources
 21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility.
