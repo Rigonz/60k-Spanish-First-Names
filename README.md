@@ -31,7 +31,7 @@ The core sources are the following:
 12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
 
 ## Auxiliary Sources
-21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv". Splitting them into single names and adding them to the main repository is a possibility.
+21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility.
 
 ## Fields
 The records in the csv files have two fields: the name and the source (a list with the numeric codes used in the Sources sections).
