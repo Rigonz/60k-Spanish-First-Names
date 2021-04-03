@@ -15,7 +15,7 @@ It is not intended to be an exhaustive list of first names, but definitely it is
 ## Languages
 These repositories include names in Spanish, Catalan, Galician and Vasque.
 
-## Sources
+## Core Sources
 The sources are the following:
 1.  https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xls (Spanish names)
 2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019 (Catalan and Spanish names)
@@ -29,6 +29,9 @@ The sources are the following:
 10. https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
 11. http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
 12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
+
+## Auxililary Sources
+21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most numbers are multiply composed (f.eg. Silvana Tomasa Filomena). A drastic cleaning still includes almost 3 million names, which are presented as file "02 Names R1 ARG3.csv". Splitting them into single names and adding them to the main repository is a possibility.
 
 ## Fields
 The records in the csv file have two fields: the name and the source (a list with the numeric codes used in the previous section).
