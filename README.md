@@ -1,8 +1,8 @@
-# 60k Spanish First Names
-60k Spanish First Names Scraped from 13 Sources
+# 60k Spanish Given Names
+60k Spanish Given Names Scraped from 13 Sources
 
 ## Presentation
-The csv file includes over 60,000 first names (antroponyms) extracted from 13 sources of Spanish first names.
+The csv file includes over 60,000 given names (antroponyms, first names) extracted from 13 sources of Spanish given names.
 
 Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries).
 
