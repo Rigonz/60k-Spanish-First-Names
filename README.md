@@ -46,9 +46,9 @@ It is possible to use the number of sources in which a name is present as a roug
 ## Files: Simple and Compound Names
 Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R1.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
 
-The file "03 Names R2.csv" includes the decomposition of compound names into simple names, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the source database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
+The file "03 Names R2.csv" includes the decomposition of the compound names included in the previous file, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the original database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
 
-Fo the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources above. 
+For the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources above. 
 
 ## Encoding
 Data is UTF-8.
