@@ -1,5 +1,5 @@
 # 60k Spanish Given Names
-60k Spanish Given Names Scraped from 14 Sources
+60k Spanish Given Names Scraped from 17 Sources
 
 ## Presentation
 The csv file includes over 60,000 given names (antroponyms, first names) extracted from 17 sources of Spanish given names.
@@ -13,7 +13,7 @@ The sources are mostly from Spain, but several large Argentinian repositories ar
 It is not intended to be an exhaustive list of first names, but definitely it is a large enough database.
 
 ## Languages
-These repositories include names in Spanish, Catalan, Galician and Vasque.
+These repositories include names in Spanish, Catalan, Galician and Vasque, as indicated in the following section.
 
 ## Core Sources
 The core sources are the following:
@@ -39,7 +39,16 @@ The core sources are the following:
 21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants would be necessary.
 
 ## Fields
-The records in the csv files have two fields: the first name and the source, which is a list with the numeric codes used in the Sources sections. It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". In any case, it is worth noting that not all the sources have the same reliability or scope.
+The records in the csv files have two fields: the first name and the source, which is a list with the numeric codes used in the Sources sections. 
+
+It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". In any case, it is worth noting that not all the sources have the same reliability or scope.
+
+## Files: Simple and Compound Names
+Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R1.csv".
+
+The file "03 Names R2.csv" includes the decomposition of compound names into simple names, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the source database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
+
+Fo the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources above. 
 
 ## Encoding
 Data is UTF-8.
