@@ -2,7 +2,7 @@
 60k Spanish Given Names Scraped from 14 Sources
 
 ## Presentation
-The csv file includes over 60,000 given names (antroponyms, first names) extracted from 14 sources of Spanish given names.
+The csv file includes over 60,000 given names (antroponyms, first names) extracted from 17 sources of Spanish given names.
 
 Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries).
 
@@ -19,21 +19,21 @@ These repositories include names in Spanish, Catalan, Galician and Vasque.
 The core sources are the following:
 1.  https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xls (Spanish names)
 2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019 (Catalan and Spanish names)
-3.  https://www.abc.es/sociedad/abci-nombres-mas-raros-espana-entre-extincion-y-particular-201906191111_noticia.html (Spanish names)
-4.  https://ca.wiktionary.org/wiki/Viccionari:Llista_de_noms_propis_en_catal%C3%A0 (Catalan names)
-5.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Catalan and Spanish names)
-6.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Catalan and Spanish names)
-7.  https://www.eldiario.es/nidos/nombres_1_2922962.html (Spanish names)
-8.  https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_femeninos and https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_masculinos (Spanish names)
+3.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Catalan and Spanish names)
+4.  http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
+5.  https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
+6.  https://www.buenosaires.gob.ar/areas/registrocivil/nombres/busqueda/imprimir.php?sexo=ambos (Spanish names)
+7.  https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_femeninos and https://es.wikipedia.org/wiki/Categor%C3%ADa:Nombres_masculinos (Spanish names)
+8.  https://ca.wiktionary.org/wiki/Viccionari:Llista_de_noms_propis_en_catal%C3%A0 (Catalan names)
 9.  https://gl.wikipedia.org/wiki/Lista_de_nomes_femininos_en_galego and https://gl.wikipedia.org/wiki/Lista_de_nomes_masculinos_en_galego (Galician names)
-10. https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
-11. http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
-12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
-13. https://www.buenosaires.gob.ar/areas/registrocivil/nombres/busqueda/imprimir.php?sexo=ambos (Spanish names)
-14. https://data.world/axtscz/spanish-first-name (Spanish names)
-15. https://en.wiktionary.org/wiki/Appendix:Spanish_given_names (Spanish names)
-16. https://en.wiktionary.org/wiki/Category:Spanish_male_given_names and https://en.wiktionary.org/wiki/Category:Spanish_female_given_names (Spanish names)
-
+10.  https://es.wikipedia.org/wiki/Antroponimia_vasca (Vasque names)
+11.  https://en.wiktionary.org/wiki/Appendix:Spanish_given_names (Spanish names)
+12.  https://en.wiktionary.org/wiki/Category:Spanish_male_given_names and https://en.wiktionary.org/wiki/Category:Spanish_female_given_names (Spanish names)
+13.  https://www.abc.es/sociedad/abci-nombres-mas-raros-espana-entre-extincion-y-particular-201906191111_noticia.html (Spanish names)
+14.  https://www.eldiario.es/nidos/nombres_1_2922962.html (Spanish names)
+15.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Catalan and Spanish names)
+16.  https://data.world/axtscz/spanish-first-name (Spanish names)
+17.  http://www.20000-names.com/male_spanish_names.htm and http://www.20000-names.com/female_spanish_names.htm (Spanish names)
 
 ## Auxiliary Sources
 21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants will be necessary.
