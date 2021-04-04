@@ -31,17 +31,15 @@ The core sources are the following:
 12. https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
 13. https://www.buenosaires.gob.ar/areas/registrocivil/nombres/busqueda/imprimir.php?sexo=ambos (Spanish names)
 14. https://data.world/axtscz/spanish-first-name (Spanish names)
+15. https://en.wiktionary.org/wiki/Appendix:Spanish_given_names (Spanish names)
+16. https://en.wiktionary.org/wiki/Category:Spanish_male_given_names and https://en.wiktionary.org/wiki/Category:Spanish_female_given_names (Spanish names)
+
 
 ## Auxiliary Sources
-21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants will be necessary, f.eg. Bacilio, Hortencia, Cilveria, Semeona, or:
-- Gisel/Ghisel/Gisell/Gisela/Ghisela/Gisele/Giselle/Gisella/Ghisella/Guisela/ 
-- Jisela/Jisella/Jisel/Jisell/Jhisel/Jhiselli/ 
-- Grisel/Grisell/Grisela/Griselda/ 
-- Yisel/Yisela/Yisell/ 
-- Isela/Hisela/Hisella, etc.
+21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants will be necessary.
 
 ## Fields
-The records in the csv files have two fields: the first name and the source, which is a list with the numeric codes used in the Sources sections.
+The records in the csv files have two fields: the first name and the source, which is a list with the numeric codes used in the Sources sections. It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". In any case, it is worth noting that not all the sources have the same reliability or scope.
 
 ## Encoding
 Data is UTF-8.
