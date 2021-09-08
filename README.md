@@ -4,7 +4,7 @@
 ## Presentation
 The csv files include over 60,000 Spanish given names (antroponyms, first names) extracted from 17 sources.
 
-Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The character ñ has been lost in the orthographic revision, something that I need to fix.
+Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The character ñ has been lost in the orthographic revision, something that I need to fix. [fixed 20210908]
 
 The names included in the list are not necessarily of "Spanish origin" (Mohamed and Manuel or Yusuf and José are included): I am not making guesses on the degree of spaniardship, and if a name has been included in any of the repositories that I have used that is good enough for me.
 
@@ -21,9 +21,9 @@ It is possible to use the number of sources in which a name is present as a roug
 These repositories include names in Spanish, Catalan, Galician and Vasque, as indicated in the Sources section.
 
 ## Files: Simple and Compound Names
-Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R1.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
+Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R1b.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
 
-The file "03 Names R2.csv" includes the decomposition of the compound names included in the previous file, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the original database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
+The file "03 Names R2b.csv" includes the decomposition of the compound names included in the previous file, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the original database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
 
 For the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources.
 
