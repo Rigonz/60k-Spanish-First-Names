@@ -2,9 +2,9 @@
 60k Spanish Given Names Scraped from 17 Sources
 
 ## Presentation
-The csv files include over 60,000 Spanish given names (antroponyms, first names) extracted from 17 sources.
+The csv files include over 60,000 Spanish given names (antroponyms, first names) extracted from some 20 sources.
 
-Accents and duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The character ñ has been lost in the orthographic revision, something that I need to fix. [fixed 20210908]
+Duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The characters ñ and ç, as well as the catalan · have been preserved; accents have been removed.
 
 The names included in the list are not necessarily of "Spanish origin" (Mohamed and Manuel or Yusuf and José are included): I am not making guesses on the degree of spaniardship, and if a name has been included in any of the repositories that I have used that is good enough for me.
 
@@ -13,17 +13,17 @@ The sources are mostly from Spain, but several large Argentinian repositories ar
 It is not intended to be an exhaustive list of first names, but definitely it is a large enough database.
 
 ## Fields
-The records have two fields: the first name and the source, which is a list with the numeric codes presented in the Sources sections. 
+The records have three fields: the first name, the sex (M: male, F: female, A: both, U: unknown) and the source, which is a list with the numeric codes presented in the Sources sections. 
 
-It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". In any case, it is worth noting that not all the sources have the same reliability or scope.
+It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". Some of the sources (INE) provide frequency data. In any case, it is worth noting that not all the sources have the same reliability or scope. In particular, for the assignment of the sex I have only used "official" sources, because the other ones are too unreliable.
 
 ## Languages
 These repositories include names in Spanish, Catalan, Galician and Vasque, as indicated in the Sources section.
 
 ## Files: Simple and Compound Names
-Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R1b.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
+Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R3.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
 
-The file "03 Names R2b.csv" includes the decomposition of the compound names included in the previous file, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are not included in the original database ("03 Names R1.csv") the name is added and a "*" mark is attached to the source. The difference is barely 400 additional names, or 0.7%.
+Compound names have been partially decomposed, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are included in the database an asterisk mark mark is attached to the source. I have tried to include all the simple names but the difference is barely 400 additional names, or 0.7%, and the components are often bizarre.
 
 For the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources.
 
@@ -46,9 +46,11 @@ The core sources are the following:
 15.  https://www.euroresidentes.com/significado-nombre/nombres-catalanes.htm (Catalan and Spanish names)
 16.  https://data.world/axtscz/spanish-first-name (Spanish names)
 17.  http://www.20000-names.com/male_spanish_names.htm and http://www.20000-names.com/female_spanish_names.htm (Spanish names)
+18.  http://reicaz.org/miscelan/santoral/santoral.htm (Spanish names)
+19.  https://www.euskaltzaindia.eus/index.php?option=com_ecoeoda&task=izenaPortada&Itemid=792&lang=es (Vasque names)
 
 ## Auxiliary Sources
-21. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants would be necessary.
+20. https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1 includes over 9 million first names from Argentina. I have tried to use it but the data is often corrupted and most names are multiply composed (f.eg. "Silvana Tomasa Filomena" or "Claudio Ruben Gervasio"). A drastic cleaning still includes almost 3 million different names, which are presented as file "03 Names R1 ARG3.csv" in zip format. Splitting them into single names and adding them to the main repository is a possibility, but careful and extensive error checking and control of variants would be necessary.
 
 ## Encoding
 Data is UTF-8.
