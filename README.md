@@ -1,5 +1,5 @@
 # 60k Spanish Given Names
-60k Spanish Given Names Scraped from 17 Sources
+60k Spanish Given Names Scraped from 20 Sources
 
 ## Presentation
 The csv files include over 60,000 Spanish given names (antroponyms, first names) extracted from some 20 sources.
