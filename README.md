@@ -4,7 +4,7 @@
 ## Presentation
 The csv files include over 60,000 Spanish given names (antroponyms, first names) extracted from some 20 sources.
 
-Duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The characters ñ and ç, as well as the catalan · have been preserved; accents have been removed.
+Duplicated names have been removed, while variants are not considered duplicates (f.eg. Manuel, Manu and Manolo are included as different entries). The characters ñ and ç, as well as the catalan · have been preserved; accents have been removed. Only capitals are used.
 
 The names included in the list are not necessarily of "Spanish origin" (Mohamed and Manuel or Yusuf and José are included): I am not making guesses on the degree of spaniardship, and if a name has been included in any of the repositories that I have used that is good enough for me.
 
