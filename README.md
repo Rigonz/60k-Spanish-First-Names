@@ -13,17 +13,17 @@ The sources are mostly from Spain, but several large Argentinian repositories ar
 It is not intended to be an exhaustive list of first names, but definitely it is a large enough database.
 
 ## Fields
-The records have three fields: the first name, the sex (M: male, F: female, A: both, U: unknown) and the source, which is a list with the numeric codes presented in the Sources sections. 
+The records have three fields: the first name, the gender (M: male, F: female, A: both, U: unknown) and the source, which is a list with the numeric codes presented in the Sources sections. 
 
-It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". Some of the sources (INE) provide frequency data. In any case, it is worth noting that not all the sources have the same reliability or scope. In particular, for the assignment of the sex I have only used "official" sources, because the other ones are too unreliable.
+It is possible to use the number of sources in which a name is present as a rough measure of frequency, but it is likely more useful as a measure of "spelling correctness". Anyhow, some of the sources (in particular INE) provide frequency data. In any case, it is worth noting that not all the sources have the same reliability or scope (and for the assignment of the gender I have only used "official" sources, because the other ones have proved to be too unreliable for a simple classification).
 
 ## Languages
 These repositories include names in Spanish, Catalan, Galician and Vasque, as indicated in the Sources section.
 
 ## Files: Simple and Compound Names
-Names as presented in the core source repositiories (after basic misspelling cleaning) are included in the csv file "03 Names R3.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
+Names as presented in the core source repositiories (after basic misspelling cleaning and dropping duplicates) are included in the csv file "03 Names R3.csv". This includes both simple (f.eg. "Ricardo") and compound names ("Ricardo María").
 
-Compound names have been partially decomposed, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are included in the database an asterisk mark mark is attached to the source. I have tried to include all the simple names but the difference is barely 400 additional names, or 0.7%, and the components are often bizarre.
+Compound names have been partially decomposed, f.eg. "Arturo David" is decomposed into "Arturo" and "David". When any of these simple names are included in the database an asterisk mark is attached to the source. I have tried to include all the simple names but the difference is barely 400 additional names, or 0.7%, and the components are often bizarre.
 
 For the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources.
 
