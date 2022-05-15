@@ -30,7 +30,7 @@ For the zipped file "03 Names R1 ARG3.csv" see section Auxiliary Sources.
 ## Core Sources
 The core sources are the following:
 1.  https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xls (Spanish names)
-2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019 (Catalan and Spanish names)
+2.  http://www.idescat.cat/nadons/?lang=es for the years 1997, 2005 and 2019, and http://www.idescat.cat/noms/?lang=es for 2020 (Catalan and Spanish names)
 3.  http://justicia.gencat.cat/.content/tramits/noms/LlistatNoms.xml (Catalan and Spanish names)
 4.  http://www.chubut.gov.ar/apps/nombres/ (Spanish names)
 5.  https://www.scribd.com/doc/252875842/Listado-de-Nombres-Permitidos (Spanish names)
