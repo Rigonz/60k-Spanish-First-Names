@@ -12,6 +12,8 @@ The sources are mostly from Spain, but several large Argentinian repositories ar
 
 It is not intended to be an exhaustive list of first names, but definitely it is a large enough database.
 
+A related project with frequency and geographical distribution: https://osf.io/dk8rp/.
+
 ## Fields
 The records have three fields: the first name, the gender (M: male, F: female, A: both, U: unknown) and the source, which is a list with the numeric codes presented in the Sources sections. 
 
